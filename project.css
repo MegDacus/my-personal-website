@@ -1,0 +1,195 @@
+
+
+body {
+    height: 100%;
+    background-color: black;
+    background: url("./background.jpg") center fixed;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+/* Header */
+
+#heading {
+    padding-top: 15%;
+}
+#heading nav p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    color: #00ecfe;
+    font-size: 30px;
+
+}
+
+/*BOTTOM LINKS*/
+
+/* section {
+    display: inline-block;
+    position: relative;
+} */
+
+#bottom-links {
+    width: 100%;
+    position:absolute;
+    bottom: 10px;
+}
+
+section #Resume {
+    float: right;
+}
+
+section #Contact {
+    float: left;
+}
+
+section img {
+    margin-left: 45vw;
+}
+
+/*PAGES*/
+
+.pages { 
+    height: 100vh;
+    position: relative;
+}
+
+/*Skills*/
+
+#skills {
+    display: block;
+}
+
+#skills table {
+    margin-top: 100px;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+/*Experience*/
+
+#experience {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.pages .ex-ops {
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-top: 5%;
+}
+
+.pages .ex-ops ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.pages .ex-ops img {
+    width:  300px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 20%;
+    border-radius: 25px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .pages .ex-ops {
+        width: 100%;
+    }
+}
+
+
+
+/*Education*/
+
+#education {
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+    color: #00ecfe;
+}
+
+#education img {
+    width: 8%;
+    margin-top: 4em;
+}
+
+#education h4 {
+    color: #00ecfe;
+    font-size: 40px;
+}
+
+
+/*Portfolio*/
+
+#portfolio {
+    background-color:
+}
+
+#portfolio table {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.portfolio-project {
+    height: 300px;
+    width: 500px;
+    border: solid 1px #00ecfe;
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    opacity: 1;
+    align-self: center;
+}
+
+.portfolio-project:hover {
+    opacity: 0.3;
+}
+
+/*Contact*/
+
+div#contact {
+    position: relative;
+}
+
+form {
+    margin-top: 50px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form #Email, #Name, #submit {
+    border-radius: 25px;
+}
+
+form #Message {
+    border-radius: 15px;
+}
