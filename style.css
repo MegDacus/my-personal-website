@@ -49,6 +49,7 @@ button {
     width: 100px;
     height: 30px;
     background-color: #00edfe53;
+    z-index: 999;
 }
 
 button a {
